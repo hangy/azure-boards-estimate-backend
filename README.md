@@ -1,3 +1,3 @@
 # Backend for Azure Boards Estimate
 
-[![Build Status](https://cs-extensions.visualstudio.com/Estimate/_apis/build/status/cschleiden.azure-boards-estimate-backend)](https://cs-extensions.visualstudio.com/Estimate/_build/latest?definitionId=1)
+[![Build Status](https://github.com/zunderscore/azure-boards-estimate-backend/actions/workflows/main.yml/badge.svg)](https://github.com/zunderscore/azure-boards-estimate-backend/actions/workflows/main.yml)
