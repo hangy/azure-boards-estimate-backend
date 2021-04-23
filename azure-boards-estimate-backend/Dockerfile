@@ -1,11 +1,11 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:2.1 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:5.0-alpine3.13 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:2.1 AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine3.13 AS build
 WORKDIR /src
 COPY ["azure-boards-estimate-backend/Estimate.csproj", "azure-boards-estimate-backend/"]
 RUN dotnet restore "azure-boards-estimate-backend/Estimate.csproj"
