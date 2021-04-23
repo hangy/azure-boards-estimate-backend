@@ -5,10 +5,12 @@
     <RootNamespace>Estimate</RootNamespace>
     <AssemblyName>Estimate</AssemblyName>
     <UserSecretsId>800e932a-b4ea-474d-8b4e-e6f4740dd72f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
   </ItemGroup>
 
 </Project>
