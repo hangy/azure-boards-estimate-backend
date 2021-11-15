@@ -5,7 +5,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine3.13 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine3.13 AS build
 WORKDIR /src
 COPY ["azure-boards-estimate-backend/Estimate.csproj", "azure-boards-estimate-backend/"]
 RUN dotnet restore "azure-boards-estimate-backend/Estimate.csproj"
